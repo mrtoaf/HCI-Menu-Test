@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pop-Up Test</title>
+        <link rel="stylesheet" href="./styles/popup-test-style.css">
+    </head>
+    <body>
+        <div class="back-button">
+            <a href="menu-test.html">Back to Start</a>
+        </div>   
+        <h1 class="page-header">Pop-Up Test</h1>
+        <div class="content-container">
+            <div class="popup-test-container">
+                <div class="button-wrapper">
+                    <button id="menuButton">Popup Menu</button>                    
+                </div>
+                <div id="menuPopup" class="hidden">
+                    <ul>
+                        <li class="category">Main Dishes
+                          <ul class="hidden">
+                            <li>Cheeseburger</li>
+                            <li>Beef Wrap</li>
+                            <li>Chicken sandwich</li>
+                            <li>Grilled Chicken Salad</li>
+                            <li>BBQ Ribs</li>
+                            <li>Hot Dog</li>
+                            <li>Pepperoni Pizza</li>
+                            <li>Club Sandwich</li>
+                            <li>Macaroni & Cheese</li>
+                          </ul>
+                        </li>
+                        <li class="category">Drinks
+                          <ul class="hidden">
+                            <li>Diet Coke</li>
+                            <li>Chocolate Milkshake</li>
+                          </ul>
+                        </li>
+                        <li class="category">Desserts
+                          <ul class="hidden">
+                            <li>Vanilla Icecream</li>
+                            <li>Apple Pie</li>
+                          </ul>
+                        </li>
+                      </ul>
+                </div>
+                <div id="dropdownResult" class="orders">
+                    <h2>Selected Items</h2>
+                    <div id="dropdownStorage"></div>
+                    <button id="resetButton">Reset</button>
+                </div>
+            </div>
+        </div>
+        <script src="./scripts/popup-test-scripts.js"></script>
+    </body>
+</html> 

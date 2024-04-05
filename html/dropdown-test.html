@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drop-Down Test</title>
+        <link rel="stylesheet" href="./styles/dropdown-test-style.css">
+    </head>
+    <body>
+        <div class="back-button">
+            <a href="menu-test.html">Back to Start</a>
+        </div>        
+        <h1 class="page-header">Drop-Down Test</h1>
+        <div class ="content-container">
+            <div class="dropdown-test-container">
+                <div id="menuContainer" class="menu-container">
+                    <div class="menu">
+                        <select id="dropdown-food-menu">
+                            <option selected="">Please Select</option>
+                            <option value="item1">Cheeseburger</option>
+                            <option value="item2">Fries</option>
+                            <option value="item3">Beef Wrap</option>
+                            <option value="item4">Chicken Sandwich</option>
+                            <option value="item5">Diet Coke</option>
+                            <option value="item6">Vanilla Ice Cream</option>
+                            <option value="item7">Grilled Chicken Salad</option>
+                            <option value="item8">BBQ Ribs</option>
+                            <option value="item9">Hot Dog</option>
+                            <option value="item10">Pepperoni Pizza</option>
+                            <option value="item11">Caesar Salad</option>
+                            <option value="item12">Club Sandwich</option>
+                            <option value="item13">Macaroni & Cheese</option>
+                            <option value="item14">Chocolate Milkshake</option>
+                            <option value="item15">Apple Pie</option>
+                        </select>
+                        <button id="addItemButton">Add Item</button>
+                    </div>
+                </div>
+                <div id="dropdownResult" class="orders">
+                    <h2>Selected Items</h2>
+                    <div id="dropdownStorage"></div>
+                    <button id="resetButton">Reset</button>
+                </div>
+            </div>
+        </div>
+        <script src="scripts/dropdown-test-scripts.js"></script>
+    </body>
+</html>

@@ -1,0 +1,90 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    background-color: #f0f0f0; 
+    border: 1px solid #d0d0d0; 
+    border-radius: 5px;
+}
+
+.back-button a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+.page-header {
+    text-align: center;
+    position: absolute;
+    width: 60%;
+    top: 450px;
+}
+
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%; 
+}
+
+.dropdown-test-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.menu-container {
+    width: auto; 
+    display: flex;
+    justify-content: center;
+}
+
+.menu-container button, .orders button {
+    margin: 10px;
+    padding: 4px 8px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.menu-container button:hover, .orders button:hover {
+    background-color: #b0c1ff;
+    transition: 0.7s;
+}
+
+.menu-container select {
+    padding : 4px 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.orders {
+    text-align: center;
+    border: 1px solid #d0d0d0;
+    padding: 10px;
+    height: fit-content;
+    margin-left: auto; 
+    width: 20%;
+    position: absolute; 
+    right: 100px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+}
